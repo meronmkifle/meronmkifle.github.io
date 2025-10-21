@@ -6,224 +6,198 @@
 <title>Meron Kifle - Public Health Professional</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; background:#f5f5f5; color:#333; }
-  .contOut { width: 90%; max-width:900px; margin: 20px auto; background:white; border-radius:6px; box-shadow:0 3px 15px rgba(0,0,0,0.1); overflow:hidden; }
-  .contIn { padding:30px; }
-  .section.top { text-align:center; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color:white; padding:50px 30px; }
-  .logoCont img { width:120px; border-radius:50%; margin-bottom:20px; }
-  .moreInfo p { font-size:0.95em; line-height:1.6; }
-  .moreInfo a { color:white; text-decoration:none; }
-  .tagline { margin-top:15px; font-weight:500; font-size:1.1em; }
-  .divider { height:2px; background:#e0e0e0; margin:20px 0; }
-  .job h2 { cursor:pointer; display:flex; justify-content:space-between; align-items:center; font-size:1.4em; margin-bottom:10px; }
-  .job h2 i { font-size:0.9em; margin-left:10px; }
-  .job p { display:none; font-size:0.95em; line-height:1.6; margin-left:10px; }
-  .job p.show { display:block; }
-  .brag { font-style:italic; color:#555; display:block; margin-top:5px; }
-  .skills { display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; }
-  .skills span { background:#0f172a; color:white; padding:6px 14px; border-radius:20px; font-size:0.9em; }
-  .languages span { display:inline-block; margin-right:20px; margin-bottom:5px; }
-  .publication { padding:15px; background:#f8f9fa; border-radius:5px; margin-top:10px; }
-  .publication a { color:#0f172a; text-decoration:none; }
-  .publication a:hover { text-decoration:underline; }
-  .contact-links a { color:white; margin:0 10px; text-decoration:none; font-size:1.1em; }
-  .contact-links a i { margin-right:5px; }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f5f5f5;
+    color:#333;
+}
+.contOut { width:100%; clear:both; margin-bottom:20px; }
+.contIn { max-width:900px; margin:0 auto; background:#fff; padding:40px; box-shadow:0 0 15px rgba(0,0,0,0.05);}
+.section.top { text-align:center; }
+.logoCont img { width:120px; border-radius:50%; margin-bottom:20px;}
+h1 { font-size:2.5em; margin-bottom:10px;}
+.moreInfo p { font-size:0.95em; line-height:1.6; }
+.moreInfo a { color:#0f172a; text-decoration:none; }
+.tagline { margin-top:15px; font-size:1.1em; color:#555; line-height:1.4;}
+.divider { border-bottom:2px solid #eee; margin-top:30px; }
+.section.middle h2 { color:#0f172a; font-size:1.8em; margin-bottom:15px; border-bottom:3px solid #0f172a; padding-bottom:5px; }
+.job, .education, .publication { margin-bottom:25px; }
+.job h2, .education h2 { font-size:1.4em; margin-bottom:5px; }
+.job p, .education p { margin-bottom:5px; color:#555; }
+.job span.date, .education span.date { font-style:italic; color:#666; font-size:0.95em; }
+.skills { display:flex; flex-wrap:wrap; gap:10px; margin-top:15px; }
+.skill-tag { background:#0f172a; color:#fff; padding:6px 14px; border-radius:20px; font-size:0.95em; }
+.summary { background:#f8f9fa; padding:20px; border-left:4px solid #0f172a; margin-bottom:20px; color:#555; }
+.languages span { display:inline-block; margin-right:20px; margin-bottom:10px;}
+.contact-links a { margin:0 10px; color:#0f172a; text-decoration:none; font-weight:500;}
+.contact-links a i { margin-right:5px; }
+@media (max-width:768px) {
+    .contIn { padding:20px; }
+    h1 { font-size:2em; }
+    .contact-links a { display:block; margin:5px 0; }
+}
 </style>
 </head>
 <body>
 
+<!-- Header -->
 <div class="contOut">
-  <div class="contIn">
-    <div class="section top">
-      <div class="logoCont">
-        <img src="https://www.gravatar.com/avatar/51efa933e7e70c09b613ff806e36cd85?s=512" alt="Profile Photo">
-      </div>
-      <h1>Meron Kifle</h1>
-      <div class="moreInfo">
-        <p>
-          Public Health Professional<br>
-          Research & Data Analytics
-        </p>
-        <div class="contact-links">
-          <a href="https://www.linkedin.com/in/meronmkifle/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
-          <a href="https://github.com/meronmkifle" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+    <div class="contIn section top">
+        <div class="logoCont">
+            <img src="https://avatars.githubusercontent.com/u/38302065?v=4" alt="Meron Kifle">
         </div>
-      </div>
+        <h1>Meron Kifle</h1>
+        <div class="moreInfo">
+            <p>Public Health Professional | Research & Data Analytics</p>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/meronmkifle/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+                <a href="https://github.com/meronmkifle" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+            </div>
+        </div>
+        <p class="tagline">Public health researcher and analyst skilled in real-world data, epidemiology, and evidence-based decision-making.</p>
     </div>
-    <div class="divider"></div>
-  </div>
 </div>
 
+<!-- Skills -->
 <div class="contOut">
-  <div class="contIn">
-    <div class="section middle">
-      <h2>Summary</h2>
-      <p>Public health researcher and analyst skilled in real-world data, epidemiology, and evidence-based decision-making.</p>
+    <div class="contIn section middle">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">R</span>
+            <span class="skill-tag">SQL/MySQL</span>
+            <span class="skill-tag">SAS</span>
+            <span class="skill-tag">IBM SPSS</span>
+            <span class="skill-tag">Excel</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Tableau</span>
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Microsoft Azure</span>
+            <span class="skill-tag">Google Cloud</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">Epidemiology</span>
+            <span class="skill-tag">Global Health</span>
+            <span class="skill-tag">MAXQDA</span>
+            <span class="skill-tag">Real-World Data</span>
+            <span class="skill-tag">Statistical Analysis</span>
+        </div>
     </div>
-    <div class="divider"></div>
-  </div>
 </div>
 
+<!-- Work Experience -->
 <div class="contOut">
-  <div class="contIn">
-    <div class="section middle">
-      <h2>Skills</h2>
-      <div class="skills">
-        <span>Python</span>
-        <span>R</span>
-        <span>SQL/MySQL</span>
-        <span>SAS</span>
-        <span>IBM SPSS</span>
-        <span>Excel</span>
-        <span>Power BI</span>
-        <span>Tableau</span>
-        <span>Machine Learning</span>
-        <span>AWS</span>
-        <span>Microsoft Azure</span>
-        <span>Google Cloud</span>
-        <span>MongoDB</span>
-        <span>Epidemiology</span>
-        <span>Global Health</span>
-        <span>MAXQDA</span>
-        <span>Real-World Data Analysis</span>
-        <span>Statistical Analysis</span>
-      </div>
+    <div class="contIn section middle">
+        <h2>Work Experience</h2>
+
+        <div class="job">
+            <h2>Evaluation and Research Analyst <span class="date">Sep 2023 - Present</span></h2>
+            <p>Motability Foundation</p>
+            <ul>
+                <li>Lead outcome data collection, analysis, and reporting for grant programs and Innovation & Impact Grants portfolio</li>
+                <li>Develop analysis frameworks and reporting formats for diverse audiences</li>
+                <li>Support annual and impact report development through quantitative and qualitative data analysis</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h2>Health Analytics - Analyst <span class="date">Apr 2022 - Sep 2023</span></h2>
+            <p>Lane Clark and Peacock</p>
+            <ul>
+                <li>Conducted statistical analyses using UK Biobank, DiscoverNow, HES, NHS datasets, and English prescribing data</li>
+                <li>Authored manuscripts for publication in peer-reviewed journals</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h2>Research Assistant <span class="date">Jan - Apr 2022</span></h2>
+            <p>UK Collaborative on Development Research</p>
+            <ul>
+                <li>Processed global COVID-19 research data mapped to WHO and UN research priorities</li>
+                <li>Performed recurring analyses for living mapping reviews and policy briefs</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h2>Data Analyst <span class="date">Jun - Aug 2021</span></h2>
+            <p>Imperial College Health Partners</p>
+            <ul>
+                <li>Designed and executed epidemiological research using real-world evidence data</li>
+                <li>Collaborated with local healthcare teams to develop stakeholder solutions</li>
+                <li>Provided support for descriptive statistics and inferential modelling</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h2>Research Assistant (Epidemiology & Biostatistics) <span class="date">Sep 2015 - Feb 2019</span></h2>
+            <p>Asmara College of Health Sciences, School of Public Health</p>
+            <ul>
+                <li>Conducted systematic literature reviews in PubMed, Embase, and Scopus</li>
+                <li>Assisted faculty in research deliverables: data wrangling, reports, protocols, analysis, manuscript prep</li>
+                <li>Supervised students in practicum, fieldwork, seminars, and research projects</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h2>Public Health Officer <span class="date">Sep 2013 - Aug 2015</span></h2>
+            <p>Dekemhare Sub-region, Ministry of Health</p>
+            <ul>
+                <li>Prepared annual Public Health plan and reported at district level</li>
+                <li>Coordinated TB/HIV and Malaria surveillance programs</li>
+                <li>Maintained district-level surveillance data systems for reporting and insights</li>
+            </ul>
+        </div>
+
     </div>
-    <div class="divider"></div>
-  </div>
 </div>
 
+<!-- Education -->
 <div class="contOut">
-  <div class="contIn">
-    <div class="section middle">
-      <h2>Work Experience</h2>
-      
-      <div class="job">
-        <h2>Evaluation and Research Analyst <i class="fa fa-plus"></i><span>Sep 2023 - Present</span></h2>
-        <p>
-          <strong>Motability Foundation</strong><br>
-          - Lead outcome data collection, analysis, and reporting for grant programs and Innovation and Impact Grants portfolio<br>
-          - Develop analysis frameworks and reporting formats for diverse audiences<br>
-          - Support annual and impact report development through quantitative and qualitative data analysis
-        </p>
-      </div>
-      
-      <div class="job">
-        <h2>Health Analytics - Analyst <i class="fa fa-plus"></i><span>Apr 2022 - Sep 2023</span></h2>
-        <p>
-          <strong>Lane Clark and Peacock</strong><br>
-          - Conducted statistical analyses using diverse real-world health data sources, including UK Biobank, DiscoverNow, HES, NHS datasets, and English prescribing data<br>
-          - Authored scientific manuscripts based on client projects for publication in peer-reviewed journals
-        </p>
-      </div>
-      
-      <div class="job">
-        <h2>Research Assistant <i class="fa fa-plus"></i><span>Jan - Apr 2022</span></h2>
-        <p>
-          <strong>UK Collaborative on Development Research</strong><br>
-          - Processed and mapped global COVID-19 research data against WHO and UN COVID-19 research funding priority areas<br>
-          - Performed recurring analyses to support periodic living mapping reviews and policy brief highlights for the COVID-19 research data tracker
-        </p>
-      </div>
-      
-      <div class="job">
-        <h2>Data Analyst <i class="fa fa-plus"></i><span>Jun - Aug 2021</span></h2>
-        <p>
-          <strong>Imperial College Health Partners</strong><br>
-          - Designed and executed epidemiological research using real-world evidence data<br>
-          - Collaborated with local healthcare teams to develop solutions that met stakeholder needs<br>
-          - Provided support for project-specific descriptive statistics and inferential modelling analysis
-        </p>
-      </div>
-      
-      <div class="job">
-        <h2>Research Assistant (Epidemiology and Biostatistics) <i class="fa fa-plus"></i><span>Sep 2015 - Feb 2019</span></h2>
-        <p>
-          <strong>Asmara College of Health Sciences</strong><br>
-          - Conducted systematic literature reviews in databases such as PubMed, Embase, and Scopus<br>
-          - Assisted faculty in drafting and revising research project deliverables<br>
-          - Supervised and supported students in clinical practicum, fieldwork, seminars, and research projects
-        </p>
-      </div>
-      
-      <div class="job">
-        <h2>Public Health Officer <i class="fa fa-plus"></i><span>Sep 2013 - Aug 2015</span></h2>
-        <p>
-          <strong>Dekemhare Sub-region, Ministry of Health</strong><br>
-          - Supported the preparation of an annual Public Health plan of action and reported at the district level<br>
-          - Coordinated and managed district surveillance technical programs for TB/HIV and Malaria<br>
-          - Assisted in maintaining district-level surveillance data systems for routine data collation, reporting, and insight generation
-        </p>
-      </div>
-      
+    <div class="contIn section middle">
+        <h2>Education</h2>
+
+        <div class="education">
+            <h2>Master of Science, Data Science <span class="date">Sep 2025</span></h2>
+            <p>Rome Business School</p>
+        </div>
+
+        <div class="education">
+            <h2>Master of Science, International Health and Tropical Medicine <span class="date">2020</span></h2>
+            <p>University of Oxford</p>
+        </div>
+
+        <div class="education">
+            <h2>Bachelor of Science, Public Health <span class="date">2014</span></h2>
+            <p>Asmara College of Health Sciences</p>
+            <p><strong>Thesis:</strong> HIV prevalence and determinants of safe sexual practices among sex workers in Asmara, Eritrea</p>
+        </div>
+
     </div>
-    <div class="divider"></div>
-  </div>
 </div>
 
+<!-- Languages -->
 <div class="contOut">
-  <div class="contIn">
-    <div class="section middle">
-      <h2>Education</h2>
-      
-      <div class="education-item">
-        <h3>Master of Science, Data Science <span>Sep 2025</span></h3>
-        <p>Rome Business School</p>
-      </div>
-
-      <div class="education-item">
-        <h3>Master of Science, International Health and Tropical Medicine <span>2020</span></h3>
-        <p>University of Oxford</p>
-      </div>
-
-      <div class="education-item">
-        <h3>Bachelor of Science, Public Health <span>2014</span></h3>
-        <p>Asmara College of Health Sciences</p>
-        <p><strong>Thesis:</strong> HIV prevalence and determinants of safe sexual practices among sex workers in Asmara, Eritrea</p>
-      </div>
-      
+    <div class="contIn section middle">
+        <h2>Languages</h2>
+        <div class="languages">
+            <span><strong>English:</strong> Professional</span>
+            <span><strong>Tigrinya:</strong> Native</span>
+            <span><strong>Amharic:</strong> Working Proficiency</span>
+        </div>
     </div>
-    <div class="divider"></div>
-  </div>
 </div>
 
+<!-- Publications -->
 <div class="contOut">
-  <div class="contIn">
-    <div class="section middle">
-      <h2>Languages</h2>
-      <div class="languages">
-        <span><strong>English:</strong> Professional</span>
-        <span><strong>Tigrinya:</strong> Native</span>
-        <span><strong>Amharic:</strong> Working Proficiency</span>
-      </div>
+    <div class="contIn section middle">
+        <h2>Publications</h2>
+        <div class="publication">
+            <a href="https://orcid.org/0000-0002-3531-2480" target="_blank"><i class="fab fa-orcid"></i> ORCID</a>
+        </div>
     </div>
-    <div class="divider"></div>
-  </div>
 </div>
-
-<div class="contOut">
-  <div class="contIn">
-    <div class="section middle">
-      <h2>Publications</h2>
-      <div class="publication">
-        <a href="https://orcid.org/0000-0002-3531-2480" target="_blank"><i class="fab fa-orcid"></i> ORCID</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-  document.querySelectorAll('.job h2').forEach(jobHeader => {
-    jobHeader.addEventListener('click', () => {
-      const p = jobHeader.nextElementSibling;
-      const icon = jobHeader.querySelector('i');
-      p.classList.toggle('show');
-      icon.classList.toggle('fa-plus');
-      icon.classList.toggle('fa-minus');
-    });
-  });
-</script>
 
 </body>
 </html>
