@@ -46,7 +46,7 @@
   <img src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg" height="30" alt="Tableau"/> &nbsp; Tableau
 </p>
 
-## 📊 GitHub Stats & Insights
+## GitHub Stats 
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=meronmkifle&layout=compact&theme=dark&hide_border=true)
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=meronmkifle&show_icons=true&theme=dark&hide_border=true&count_private=true)
