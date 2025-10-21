@@ -1,8 +1,3 @@
-Hello 👋 <p>
-With a background in **Public Health** and **Data Science**, I'm passionate about turning real-world data into actionable insights that drive better health and business decisions.  
-
----
-
 ## 🌐 Socials
 <p>
   <a href="https://linkedin.com/in/meronmkifle">
