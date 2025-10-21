@@ -1,4 +1,4 @@
-## 🌐 Socials
+## 🌐 Lets connect!
 <p>
   <a href="https://linkedin.com/in/meronmkifle">
     <img src="https://skillicons.dev/icons?i=linkedin" height="30" alt="LinkedIn"/>
