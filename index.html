@@ -34,7 +34,9 @@ li {margin-bottom:8px;}
 .publication {margin-bottom:15px;padding:15px;background-color:#f8f9fa;border-radius:5px;}
 .publication a {color:#0f172a;text-decoration:none;}
 .publication a:hover {text-decoration:underline;}
-.collapsible {background-color:#f1f1f1;color:#333;cursor:pointer;padding:12px 18px;width:100%;border:none;text-align:left;outline:none;font-size:1.1em;border-left:4px solid #0f172a;margin-bottom:5px;transition:background-color 0.3s;}
+.collapsible {background-color:#f1f1f1;color:#333;cursor:pointer;padding:12px 18px;width:100%;border:none;text-align:left;outline:none;font-size:1.1em;border-left:4px solid #0f172a;margin-bottom:5px;transition:background-color 0.3s;position:relative;padding-left:45px;}
+.collapsible::before {content:"+";position:absolute;left:18px;font-size:1.4em;font-weight:900;color:#dc2626;transition:transform 0.3s;}
+.active::before {content:"−";transform:rotate(0deg);}
 .active, .collapsible:hover {background-color:#e2e2e2;}
 .content-collapsible {padding:0 18px;display:none;overflow:hidden;background-color:#fafafa;border-left:4px solid #0f172a;margin-bottom:15px;}
 .content-collapsible p, .content-collapsible ul {padding:15px 0;}
