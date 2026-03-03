@@ -14,7 +14,7 @@
 
 ## 👤 About Me
 
-Health Data Scientist with 8+ years of experience in epidemiology, real-world evidence, and applied analytics. I work as an Evaluation & Research Analyst at Motability Foundation and have authored 14 peer-reviewed publications. I hold an MSc in International Health & Tropical Medicine from Oxford and an MSc in Data Science.
+Health Data Scientist with 8+ years of experience in epidemiology, real-world evidence, and applied data analytics. Currently, I work as an Evaluation & Research Analyst at Motability Foundation.
 
 ---
 
